@@ -62,5 +62,9 @@
   },
   "resolutions": {
     "natives": "1.1.6"
+  },
+  "dependencies": {
+    "gutenberg-web-type": "^1.2.3",
+    "normalize.css": "^8.0.1"
   }
 }

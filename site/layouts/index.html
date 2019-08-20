@@ -1,9 +1,29 @@
 {{ define "main" }}
 
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
-
-<h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
-
-<a href="{{ "/tech" | relURL }}">Check out the tech</a>
+<div class="container">
+    <div class="focal">Hello, I am <div class="name">Iyed Ghedamsi</div></div>
+    
+    <div class="introduction">
+        I <div class="emph">design</div> interactive stories by <div class="emph">collecting</div>, <div class="emph">analyzing</div>  and 
+        <div class="emph">visualizing</div> real-world data.
+    </div>
+    
+    <nav class="navigation">
+        <ul>
+            <li class="navigation-item">
+                <span class="navigation-item-title">Blog.</span>
+                <span class="navigation-item-description">My writings</span>
+            </li>
+            <li class="navigation-item">
+                <span class="navigation-item-title">Projects.</span>
+                <span class="navigation-item-description">My explorations</span>
+            </li>
+            <li class="navigation-item">
+                <span class="navigation-item-title">About.</span>
+                <span class="navigation-item-description">Get to know me</span>
+            </li>
+        </ul>
+    </nav>
+</div>
 
 {{ end }}

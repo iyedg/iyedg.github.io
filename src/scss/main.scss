@@ -1,0 +1,78 @@
+@import "~normalize.css/normalize";
+@import "~typeplate-starter-kit/scss/_typeplate-index";
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Poppins:400,900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Poppings", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+.emph {
+  font-family: "Libra Baskerville", serif;
+  display: inline;
+  color: red;
+  font-style: italic;
+}
+
+p {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.focal {
+  @extend .typl8-mega;
+  .name {
+    display: block;
+    color: #666;
+  }
+  font-weight: 900;
+  letter-spacing: -0.1em;
+}
+
+.navigation {
+  ul {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    display: inline;
+  }
+
+  .navigation-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation-item-title {
+    font-weight: 900;
+  }
+  .navigation-item-description {
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+  }
+}
+
+.introduction {
+  @extend .typl8-gamma;
+}
