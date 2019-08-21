@@ -13,11 +13,13 @@
   {{ end }}
 </head>
 
-<body>
+<body data-barba="wrapper">
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
 
-  {{ block "main" . }}{{end}}
+  <main data-barba="container" class="container">
+    {{ block "main" . }}{{end}}
+  </main>
 
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 

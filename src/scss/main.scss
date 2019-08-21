@@ -3,11 +3,14 @@
 
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Poppins:400,900&display=swap");
 
+$red: #f04c4b;
+$blue: #0d598f;
+
 html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -24,12 +27,13 @@ body {
   align-content: center;
   width: 70%;
   margin: auto;
+  height: 100vh;
 }
 
 .emph {
   font-family: "Libra Baskerville", serif;
   display: inline;
-  color: red;
+  color: $red;
   font-style: italic;
 }
 
@@ -37,16 +41,17 @@ p {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  font-family: "Libra Baskerville", serif;
 }
 
 .focal {
   @extend .typl8-mega;
   .name {
     display: block;
-    color: #666;
+    color: $blue;
   }
   font-weight: 900;
-  letter-spacing: -0.1em;
+  letter-spacing: -3px;
 }
 
 .navigation {
@@ -75,4 +80,15 @@ p {
 
 .introduction {
   @extend .typl8-gamma;
+}
+
+a {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  text-align: center;
 }

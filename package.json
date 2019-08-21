@@ -64,7 +64,8 @@
     "natives": "1.1.6"
   },
   "dependencies": {
-    "gutenberg-web-type": "^1.2.3",
-    "normalize.css": "^8.0.1"
+    "@barba/core": "^2.4.0",
+    "normalize.css": "^8.0.1",
+    "typeplate-starter-kit": "^3.0.3"
   }
 }
