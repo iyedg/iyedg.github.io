@@ -1,5 +1,9 @@
 {{ define "main" }} {{ $section := .Site.GetPage "section" .Section }}
-<article class="content">
-  <main>{{- .Content -}}</main>
+<input type="button" value="Go Back From Whence You Came!" onclick="history.back(-1)" />
+<article class="row">
+  <div class="col-sm-12 col-md-8 mx-auto">
+    <h1>{{ .Title }}</h1>
+    {{- .Content -}}
+  </div>
 </article>
 {{ end }}

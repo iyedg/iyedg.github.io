@@ -1,12 +1,22 @@
 {{ define "main" }}
 
-<h1>Posts</h1>
-{{ .Content }}
-{{ range .Pages }}
-<article>
-  <a href="{{ .RelPermalink }}">
-    <h2>{{ .Title }}</h2>
-  </a>
-</article>
-{{ end }}
+<div class="row">
+  <h1>Posts</h1>
+</div>
+<div class="row">
+  {{ .Content }}
+</div>
+<div class="row">
+  <nav>
+    <ul>
+      {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</div>
 {{ end }}
