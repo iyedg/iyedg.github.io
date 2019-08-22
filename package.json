@@ -65,7 +65,12 @@
   },
   "dependencies": {
     "@barba/core": "^2.4.0",
+    "@barba/prefetch": "^2.1.6",
+    "bootstrap": "4.3.1",
+    "jquery": "^3.4.1",
     "normalize.css": "^8.0.1",
+    "popper.js": "^1.15.0",
+    "rfs": "^8.0.4",
     "typeplate-starter-kit": "^3.0.3"
   }
 }
