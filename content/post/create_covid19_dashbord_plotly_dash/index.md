@@ -27,14 +27,7 @@ None of these solutions is a cure-all, therefore it is wise to keep an open mind
 By the end of this tutorial we will have a dashboard that looks like this:
 
 
-<figure>
-<video controls >
-  <source src="videos/another.mkv">
-</video>
-<figcaption>
-<span>End result</span>
-</figcaption>
-</figure>
+{{< video loop="no" autoplay="no" controls="yes" src="videos/end_result.mp4" >}}
 
 {{% toc %}}
 
