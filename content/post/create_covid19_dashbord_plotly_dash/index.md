@@ -1,6 +1,6 @@
 ---
 title: "Get started with Plotly Dash: a COVID19 dashboard for Tunisia"
-date: 2020-05-02T10:33:25+01:00
+date: 2020-05-18T10:33:25+01:00
 draft: false
 tags: ["plotly", "python", "dashboards"]
 ---
