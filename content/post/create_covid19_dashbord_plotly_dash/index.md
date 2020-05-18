@@ -24,8 +24,9 @@ None of these solutions is a cure-all, therefore it is wise to keep an open mind
 * [**Panel**](https://panel.holoviz.org/index.html), [(gallery)](https://panel.holoviz.org/index.html)
 * Or go full [NIH](https://en.wikipedia.org/wiki/Not_invented_here) and build your own with [**Flask**](https://flask.palletsprojects.com/en/1.1.x/)
 
-By the end of this tutorial we will have a dashboard that looks like this:
-
+By the end of this tutorial we will have a dashboard that looks like this
+<small>([Link to
+dashboard](https://dash-tutorial-covid19-tunisia.herokuapp.com/))</small>:
 
 {{< video loop="no" autoplay="no" controls="yes" src="videos/end_result.mp4" >}}
 
@@ -544,6 +545,12 @@ module where I include all the steps of data preparation, and another where I
 include all the code necessary for genrating my plots, I am avoiding creating a
 huge cluster of code that is less maintainable and a headache to extend and / or
 refactor.
+
+{{% alert note %}}
+To see how the data was prepared please refer to [this
+notebook](https://nbviewer.jupyter.org/github/iyedg/iyedg.github.io/blob/develop/content/post/create_covid19_dashbord_plotly_dash/notebooks/01_data_preparation.ipynb)
+and to [`data.py`](https://github.com/iyedg/plotly_dash_tutorial_code/blob/master/src/data.py).
+{{% /alert %}}
 
 ## Parting thoughts
 
