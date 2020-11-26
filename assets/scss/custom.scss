@@ -1,0 +1,57 @@
+.avatar {
+        display: none;
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+.article-container {
+  max-width: 850px;
+}
+
+.article-style aside p,
+div.alert > div {
+  position: relative;
+  display: block;
+  /* I made the font size smaller & adjusted the margin-left */
+  margin-left: 1.7rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* I also changed the color of the icon & its top & left positions */
+.article-style aside p::before,
+div.alert > div:first-child::before {
+  position: absolute;
+  top: -0.3rem;
+  left: -2rem;
+  color: #0EAD69;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f05a';
+  width: 1rem;
+  text-align: left;
+}
+
+/* You can edit the borders and backgrounds here */
+.article-style aside,
+.alert-note {
+  color: #26547C;
+  background-color: #F7F7F7;
+  border-color: #0EAD69;
+}
+
+.alert-warning {
+  color: #cd0930;
+  background-color: #fff5f7;
+  border-color: #ff3860;
+}
+
+div.alert-warning > div:first-child::before {
+  color: #cd0930;
+}
+
+.featurette-icon {
+  padding-top: 1em;
+}
