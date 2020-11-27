@@ -22,7 +22,7 @@ day_night = false
 #   Guide to font sets: https://wowchemy.com/docs/customization/#fonts
 #   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/data/fonts
 #   Browse user installed font sets in `data/fonts/`
-font = "ocean"
+font = "iyed_font"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -58,7 +58,7 @@ description = ""
 # Documentation: https://wowchemy.com/docs/writing-markdown-latex/#highlighting-options
 highlight = true
 highlight_languages = ["r", "python", "sql"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_style = "shades-of-purple"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
@@ -133,17 +133,17 @@ twitter = "iyed_g"
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:00"
 
 # Address format (en-us, en-gb, de, fr-fr, zh).
-address_format = "en-us"
+address_format = "fr-fr"
 
 ############################
 ## Advanced
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = false, show_search = true}
+main_menu = {align = "r", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = false, show_search = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
@@ -157,7 +157,7 @@ sharing = true
 
 # Show a copyright license from creativecommons.org in the site footer?
 # Page specific copyright licenses are also possible by adding this option to a page's front matter.
-copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
+copyright_license = {enable = true, allow_derivatives = true, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
 # Link authors to their profile page? (true/false)
 link_authors = true
@@ -215,7 +215,7 @@ plugins_js  = []
   # Configuration of Disqus.
   [comments.disqus]
     shortname = "iyedg-me"  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
+    show_count = false  # Show comment count in page header? (true/false)
 
   # Configuration of Commento.
   [comments.commento]

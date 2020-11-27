@@ -10,6 +10,18 @@
   max-width: 850px;
 }
 
+.article {
+  h1, h2, h3, h4, h5 {
+    font-weight: 700;
+  }
+}
+
+.article-style {
+  code {
+    font-weight: 500;
+  }
+}
+
 .article-style aside p,
 div.alert > div {
   position: relative;

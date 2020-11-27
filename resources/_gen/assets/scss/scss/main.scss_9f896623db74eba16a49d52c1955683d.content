@@ -3233,7 +3233,7 @@ input.btn-block[type="button"] {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: #ff8e71; }
+  color: #fff; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: #ffba93; }
 
@@ -7147,7 +7147,7 @@ a.text-dark:hover, a.text-dark:focus {
  *  Wowchemy's Core Style
  **************************************************/
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 13.86px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65; }
@@ -7228,14 +7228,14 @@ ul.task-list li input[type="checkbox"] {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: "Roboto", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: .5rem;
@@ -7335,7 +7335,7 @@ figcaption.numbered {
 
 pre,
 code {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Fira Code", monospace;
   color: #c7254e;
   /* Match bg of default highlight theme. */
   background-color: #f8f8f8; }
@@ -9295,6 +9295,12 @@ html[dir="rtl"] body {
 
 .article-container {
   max-width: 850px; }
+
+.article h1, .article h2, .article h3, .article h4, .article h5 {
+  font-weight: 700; }
+
+.article-style code {
+  font-weight: 500; }
 
 .article-style aside p,
 div.alert > div {
