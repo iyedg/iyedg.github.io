@@ -65,5 +65,9 @@ div.alert-warning > div:first-child::before {
 }
 
 .featurette-icon {
-  padding-top: 1em;
+  padding-top: 0.3em;
+  i {
+    font-size: 1.5rem;
+  }
+  font-size: 2.5rem;
 }
