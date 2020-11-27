@@ -1,0 +1,53 @@
+https://keybase.io/iyedg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://iyedg.me
+  * I am iyedg (https://keybase.io/iyedg) on keybase.
+  * I have a public key ASCVFaa8ccxFgyCxv9uFpC-Crmd1FA1EeAdhaM3-chWIkwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203f3ccd515e6590f34d9e4717c253f45b9040fb58a4d8c55d6c0501637d4d9dde0a",
+      "host": "keybase.io",
+      "kid": "01209515a6bc71cc458320b1bfdb85a42f82ae6775140d4478076168cdfe721588930a",
+      "uid": "a8d17f709e9e4e670039834830753719",
+      "username": "iyedg"
+    },
+    "merkle_root": {
+      "ctime": 1606485478,
+      "hash": "d986f911ae4a550e0ec75d0c2fa683280bda8c6eeee9657dbec90633f21a20d33e53656fd7ff1f1b8d192bfa4c49472aedc3626a3fc76d35a24cd5869340faca",
+      "hash_meta": "e64876854252eece95f333331bfd603d88fdbbe4cadd14ebd5c4d3a0edbdbc92",
+      "seqno": 18240643
+    },
+    "service": {
+      "entropy": "LJ+mnQZhjZtX62nBvcLRCbSG",
+      "hostname": "iyedg.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.2"
+  },
+  "ctime": 1606485506,
+  "expire_in": 504576000,
+  "prev": "34b8edf21c0cd5317dd54c7be207187d0ed9e7651c17ec5d7d6166e796a346e9",
+  "seqno": 64,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglRWmvHHMRYMgsb/bhaQvgq5ndRQNRHgHYWjN/nIViJMKp3BheWxvYWTESpcCQMQgNLjt8hwM1TF91Ux74gcYfQ7Z52UcF+xdfWFm55ajRunEIFDpk6pbO8of4dWWWzFAgSGO1ikxxoHT6lnz1fYfgXXQAgHCo3NpZ8RAKJeLG9FLi7RnS8LaVVax1nojNCAl5Nmx47VuXwo2jIgZMgUX0F4yApVNi+zL+zp4R+xOSEucaiYgwUbhxt4IAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHC/N8aHWTYucClDdBzKlq0HCe0UaXAli6lTHddyoYNno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iyedg
