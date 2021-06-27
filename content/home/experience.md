@@ -34,12 +34,12 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Adjunct professor"
+  company = "Tunis Business School"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Tunisia"
+  date_start = "2018-01-01"
+  date_end = "2019-01-01"
+  description = """Taught Tutorial sessions for an introductory Operations Research Course"""
 
 +++
