@@ -3,4 +3,4 @@
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "themes/hugo-apero"]
 	path = themes/hugo-apero
-	url = https://github.com/hugo-apero
+	url = https://github.com/hugo-apero/hugo-apero.git
