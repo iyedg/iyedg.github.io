@@ -2,7 +2,6 @@
 title: "Opening up the Tunisian Institute of Statistics' poverty report of 2020"
 date: 2020-11-14T21:25:46+01:00
 draft: true
-toc: true
 ---
 
 As is the case with most publication from Tunisian public institutions that generate data, the **Tunisian Institute of Statistics** (TIS) has recently released a [report on poverty](www.ins.tn%2Fsites%2Fdefault%2Ffiles%2Fpublication%2Fpdf%2FCarte%20de%20la%20pauvret%C3%A9%20en%20Tunisie_final.pdf) in Tunisia as a ... PDF file. The Tunisian citizen in me cringed, the data nerd decided it would make a good project to showcase how to transform a PDF into a more open format, and even throw in some interactive data visualization.
