@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 14 Nov 2020 21:25:46 +0100</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Opening up the Tunisian Institute of Statistics&#39; poverty report of 2020</title>
+      <link>/posts/poverty_rate_tunisia_2020/</link>
+      <pubDate>Sat, 14 Nov 2020 21:25:46 +0100</pubDate>
+      
+      <guid>/posts/poverty_rate_tunisia_2020/</guid>
+      <description>As is the case with most publication from Tunisian public institutions that generate data, the National Institute of Statistics (NIS) has recently released a report on poverty in Tunisia as a &amp;hellip; PDF file. The Tunisian citizen in me cringed, the data nerd decided it would make a good project to showcase how to transform a PDF into a more open format, and even throw in some interactive data visualization.</description>
+    </item>
+    
+    <item>
+      <title>Get started with Plotly Dash: a COVID19 dashboard for Tunisia</title>
+      <link>/posts/create_covid19_dashbord_plotly_dash/</link>
+      <pubDate>Sat, 02 May 2020 10:33:25 +0100</pubDate>
+      
+      <guid>/posts/create_covid19_dashbord_plotly_dash/</guid>
+      <description>Can you create a pretty and usable dashboard without knowing much about frontend development ? Various attempts at making the answer to this question a YES have been made with varying degrees of success. Probably the most famous attempts are tools like PowerBI Microsoft or Tableau which have a relatively low barrier to entry compared to solutions that involve coding. Even the omnipresent (but far form omnipotent) Excel could be used as a dashboarding tool.</description>
+    </item>
+    
+  </channel>
+</rss>
