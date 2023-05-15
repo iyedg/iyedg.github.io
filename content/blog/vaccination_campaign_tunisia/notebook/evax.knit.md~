@@ -1,0 +1,33 @@
+---
+title: "EVAX"
+author: "Iyed Ghedamsi"
+date: "7/20/2021"
+output:
+  html_document: 
+    toc: yes
+    fig_caption: yes
+  pdf_document: 
+    toc: yes
+    keep_tex: yes
+editor_options:
+  chunk_output_type: console
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
