@@ -1,4 +1,4 @@
-baseURL = "iyedg.me"
+baseURL = "/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Iyed Ghedamsi"
