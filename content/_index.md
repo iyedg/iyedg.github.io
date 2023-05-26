@@ -6,8 +6,8 @@ description: Currently a Senior Data Officer  [@REACH](https://www.reach-initiat
 show_action_link: true
 show_social_links: true
 subtitle: Welcome to my personal website
-text_align_left: true
-title: Hi 👋🏽, I'm Iyed GHEDAMSI
+text_align_left: false
+title: Hi, I'm Iyed GHEDAMSI
 type: home
 ---
 
